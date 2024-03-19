@@ -1,0 +1,15 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(64, 1fr);
+  grid-template-rows: repeat(64, 1fr);
+  width: 400px;
+  height: 400px;
+}
+
+.square {
+  background: white;
+}
+
+.square.black {
+background-color: black;
+}
